@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee2dc;
+    font-family: Nunito;
+    color: #123c69;
+}
+
+nav {
+    background-color: #edc7b7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.logo {
+    height: 6em;
+    width: auto;
+    margin: 1em 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+li {
+    padding: 1.5em;
+    font-size: 1.3rem;
+    color: #ac3b61;
+}
+
+li:hover {
+    color: white;
+}
+
+a {
+    color: #ac3b61;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    
+    border-radius: 4px;
+}
+
+.nav-heading {
+   font-size: 1.9rem;
+   }
+
+footer {
+    background-color: #edc7b7;
+    color: #ac3b61;
+    padding: 1%;
+    text-align: center;
+}
+
+
+.footer {
+    font-size: 1em;
+    color: #ac3b61;
+}
+
+.me {
+    width: 16em;
+    padding: 2em;
+   
+}
+
+
+------- /* MY LIBRARY */ -------
+
+/* PJO */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: fit-content;
+}
+
+
+
+.pjo {
+    height: 14em;
+}
+
+.percy-jackson {
+    display: flex;
+    /* align-items: center; */
+    padding: 1em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pj-o {
+    padding: 0.5em;
+}
+
+.labyrinth {
+    width: 10em;
+
+}
+
+.library-heading {
+    background-color: #edc7b784;
+    color: #ac3b61;
+    padding: 2em 0;
+}
+
+h3 {
+    padding: 0.5em 0;
+    color: #123c69;
+    font-size: 2rem;
+}
+
+.thg4 {
+    width: 10em;
+}
+
+.series-index {
+    background-color: rgba(226, 194, 255, 0.5);
+
+}
+
+.library-index {
+    text-align: center;
+    margin: 0 12em;
+    padding: 1em;
+}
+
+.briaru {
+    padding: 0 2em;
+}
+
+h4 {
+    padding: 1.5em;
+    text-align: center;
+}
+
+.icons {
+    height: 1em;
+    align-items: center;
+}
+
+.body {
+    margin: 0 5em;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.library-banner {
+    padding: 0 10em;
+}
+
+.library-title {
+    font-size: 1.5rem;
+    padding-left: 6.5em;
+    color: #ac3b61;
+   
+}
+
+
+
+.bottom-footer {
+    padding: 1em;
+    text-align: center;
+    align-content: center;
+
+}
+
+.bottom {
+    color: #ac3b61;
+    font-size: 2em;
+}
+
+.bottom-page {
+    background-color: #edc7b784;
+    color: #ac3b61;
+}
+
+
+
+.book-recs {
+    background: linear-gradient(90deg, rgba(128,0,128,0.0) 0%, #eeb9a2, rgba(128,0,128,0.0) 100%);
+    color: #ac3b61;
+    padding: 2em;
+}
+
+h1 {
+    text-align: center;
+}
+
+.library-body {
+    margin: 0 15em;
+    width: 80vw;
+}
+
+hr {
+    color: purple;
+}
+
+.pjo2 {
+    height: 15em;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 5em 0;
+    justify-content: flex-start;
+    flex-wrap: no wrap; 
+}
+
+.nav-header {
+    display: flex;
+    padding: 0 5em;
+    justify-content: flex-start;
+    flex-wrap: no wrap;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #eee2dc;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #edc7b784;
+    color: #123c69;
+    border-radius: 16px;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 16px;
+
+}
+
+p {
+    color: #123c69;
+}
+
+.index-div-text {
+    width: 25vw;
+}
+
+h2 {
+    color: #ac3b61;
+}
+
+span {
+    color: #123c69;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.intro {
+    width: 35vw;
+    margin: 2em;
+}
+
+.book-title {
+    width: 30em;
+}
+
